@@ -1,0 +1,55 @@
+name: Ошибка перевода
+description: Сообщить о кривом, непонятном или неправильном переводе
+title: "[Translation]: "
+labels:
+  - translation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за помощь. Чем точнее описание, тем быстрее можно поправить перевод.
+  - type: input
+    id: mod_version
+    attributes:
+      label: Версия Reforged Eden 2
+      description: Например, Beta Build 46.
+      placeholder: "Beta Build 46"
+    validations:
+      required: true
+  - type: dropdown
+    id: location
+    attributes:
+      label: Где находится проблема
+      options:
+        - PDA / задания
+        - Диалог NPC
+        - Описание предмета или блока
+        - Название предмета или блока
+        - Описание сценария
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Текущий текст
+      description: Вставьте текст, который сейчас отображается плохо.
+      placeholder: "Например: Вернуться в торговец"
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_text
+    attributes:
+      label: Как лучше перевести
+      description: Если знаете хороший вариант, напишите его здесь.
+      placeholder: "Например: Вернуться к торговцу"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Скриншот
+      description: Можно прикрепить скриншот прямо в это поле.
+    validations:
+      required: false
+

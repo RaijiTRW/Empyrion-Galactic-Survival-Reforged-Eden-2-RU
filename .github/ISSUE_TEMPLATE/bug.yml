@@ -1,0 +1,59 @@
+name: Баг или совместимость
+description: Сообщить о поломке, ошибке или проблеме после обновления игры/мода
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: input
+    id: mod_version
+    attributes:
+      label: Версия Reforged Eden 2
+      placeholder: "Beta Build 46 или другая версия"
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: Версия Empyrion
+      placeholder: "Напишите версию игры, если знаете"
+    validations:
+      required: false
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: Тип проблемы
+      options:
+        - После обновления мода
+        - После обновления игры
+        - Игра не видит перевод
+        - Часть текста осталась на английском
+        - Ошибка в игре
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить проблему
+      placeholder: |
+        1. Открыл игру
+        2. Запустил Reforged Eden 2
+        3. Открыл PDA
+        4. Увидел проблему
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что должно было быть
+      placeholder: "Например: текст должен быть на русском."
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Скриншоты
+      description: Можно приложить скриншоты ошибки, папки установки или текста в игре.
+    validations:
+      required: false
+

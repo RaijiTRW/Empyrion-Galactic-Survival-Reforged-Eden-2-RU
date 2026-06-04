@@ -1,0 +1,50 @@
+name: Проблема с установкой
+description: Сообщить, что русификатор не ставится или не работает в игре
+title: "[Installation]: "
+labels:
+  - installation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Заполните шаги ниже. Это поможет понять, куда именно были скопированы файлы.
+  - type: input
+    id: game_path
+    attributes:
+      label: Путь к игре
+      placeholder: "Steam/steamapps/common/Empyrion - Galactic Survival/"
+    validations:
+      required: true
+  - type: input
+    id: mod_path
+    attributes:
+      label: Путь к Reforged Eden 2
+      placeholder: "Steam/steamapps/workshop/content/383120/3143225812/"
+    validations:
+      required: true
+  - type: dropdown
+    id: install_method
+    attributes:
+      label: Как ставили русификатор
+      options:
+        - Прямо в Workshop-папку
+        - В локальную копию сценария
+        - Не уверен
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что произошло
+      description: Опишите проблему простыми словами.
+      placeholder: "Например: PDA остался на английском, хотя файлы скопировал с заменой."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Скриншоты
+      description: Можно приложить скриншоты папок или игры.
+    validations:
+      required: false
+

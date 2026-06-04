@@ -1,0 +1,21 @@
+name: Предложение улучшения
+description: Предложить улучшение русификатора, README или структуры установки
+title: "[Suggestion]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Что предлагаете улучшить
+      placeholder: "Опишите идею."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Зачем это нужно
+      placeholder: "Почему это будет полезно игрокам?"
+    validations:
+      required: false
+
