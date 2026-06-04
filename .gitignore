@@ -1,0 +1,18 @@
+.DS_Store
+Thumbs.db
+
+# Temporary work files
+*.tmp
+*.bak
+*.orig
+
+# Local archives
+*.zip
+*.7z
+*.rar
+
+# Raw mod files can be large and may contain third-party content.
+# Keep only files that are needed for the public translation release.
+source-mod/*
+!source-mod/.gitkeep
+
