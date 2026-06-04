@@ -1,0 +1,27 @@
+[
+  {
+    "file": "Extras/Localization.csv",
+    "changed": 5126,
+    "pending": 0
+  },
+  {
+    "file": "Extras/PDA/PDA.csv",
+    "changed": 8984,
+    "pending": 0
+  },
+  {
+    "file": "Content/Configuration/Dialogues.csv",
+    "changed": 13660,
+    "pending": 0
+  },
+  {
+    "file": "Content/Configuration/Dialogues.ecf",
+    "changed": 12,
+    "pending": 0
+  },
+  {
+    "file": "description.txt",
+    "changed": 1,
+    "pending": 0
+  }
+]
