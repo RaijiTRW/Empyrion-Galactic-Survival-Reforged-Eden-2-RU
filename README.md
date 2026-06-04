@@ -35,26 +35,52 @@
 
 1. Установите **Empyrion - Galactic Survival**.
 2. Установите сценарий **Reforged Eden 2** через Steam Workshop или вручную.
-3. Откройте папку игры:
+3. Если сценария нет в папке игры, откройте папку Steam Workshop:
 
 ```text
-Steam/steamapps/common/Empyrion - Galactic Survival/
+Steam/steamapps/workshop/content/383120/
 ```
 
-4. Скопируйте содержимое папки русификатора:
+У Reforged Eden 2 папка обычно имеет числовое имя:
+
+```text
+3143225812
+```
+
+Если такой папки нет, отсортируйте папки по дате изменения или найдите внутри `description.txt` со строкой `Reforged Eden 2`.
+
+4. Для более стабильной установки можно скопировать папку Workshop-сценария в папку сценариев игры:
+
+```text
+Steam/steamapps/common/Empyrion - Galactic Survival/Content/Scenarios/
+```
+
+и переименовать ее в:
+
+```text
+Reforged Eden 2
+```
+
+5. Скопируйте содержимое папки русификатора:
 
 ```text
 translation/Content/
 ```
 
-5. Вставьте его в папку игры:
+6. Вставьте его в папку игры:
 
 ```text
 Empyrion - Galactic Survival/Content/
 ```
 
-6. Согласитесь на замену файлов, если система спросит.
-7. Запустите игру и начните новую игру со сценарием **Reforged Eden 2**.
+Или, если игра использует Workshop-папку напрямую, вставьте файлы в:
+
+```text
+Steam/steamapps/workshop/content/383120/3143225812/
+```
+
+7. Согласитесь на замену файлов, если система спросит.
+8. Запустите игру и начните новую игру со сценарием **Reforged Eden 2**.
 
 ## Установка для уже существующего сохранения
 
