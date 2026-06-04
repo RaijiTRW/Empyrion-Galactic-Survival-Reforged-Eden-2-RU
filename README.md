@@ -1,4 +1,4 @@
-# Empyrion Galactic Survival: Reforged Eden 2 RU
+# Empyrion Galactic Survival - Reforged Eden 2 Русификатор
 
 Русификатор для сценария/мода **Reforged Eden 2** в игре **Empyrion - Galactic Survival**.
 
@@ -135,4 +135,3 @@ translation/
 - [ ] Выполнен перевод.
 - [ ] Проверена структура CSV/YAML.
 - [ ] Подготовлен первый релиз.
-
