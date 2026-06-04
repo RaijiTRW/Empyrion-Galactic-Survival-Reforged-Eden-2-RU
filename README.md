@@ -4,6 +4,8 @@
 
 Перевод подготовлен для **Reforged Eden 2 Beta, Build 46** из Steam Workshop.
 
+На данный момент перевод остается актуальным. Обновления Reforged Eden 2 в Steam Workshop отслеживаются, и при изменениях мода русификатор будет обновляться.
+
 Workshop ID мода:
 
 ```text
