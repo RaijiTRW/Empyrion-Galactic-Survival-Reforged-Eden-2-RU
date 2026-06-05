@@ -44,10 +44,10 @@
   Next_5: TC_DefaultEntry
 }
 { +Dialogue Name: TC_CameBack
-  Output: "Эй, мы уже говорили {TalkCount} раз, на данный момент хватит!"
+  Output: "Hey we talked already {TalkCount} times, that's enough for now!"
 }
 { +Dialogue Name: TC_TalkingOk
-  Output: "Начнем с самого начала"
+  Output: "Let's start from the beginning"
   Execute_1: "TalkCount = 1"
   Next_1: TC_DefaultEntry
 }
@@ -56,11 +56,11 @@
 }
 { +Dialogue Name: TC_HasHolyStatus
   Output: dlgTCHolyStatue
-  Option_1: "Да, я дарю это тебе в подарок"
+  Option_1: "Yes, I give it to you as a present"
   OptionNext_1: TC_GiveHolyStatue
-  Option_2: "Нет, я хочу сохранить это"
+  Option_2: "No, I want to keep it"
   OptionNext_2: TC_DefaultEntryCont
-  Option_3: "мне нужно идти"
+  Option_3: "I need to go"
   OptionNext_3: End
 }
 { +Dialogue Name: TC_DefaultEntry
@@ -70,13 +70,13 @@
 { +Dialogue Name: TC_DefaultEntryCont
   Option_1: dlgTCTellMeStory
   OptionNext_1: TC_AskStoryAboutPeople
-  Option_2: "Можешь дать мне немного еды?"
+  Option_2: "Can you give me some food?"
   OptionNext_2: TC_CheckFood
-  Option_3: "Мне нужно идти."
+  Option_3: "I need to go."
   OptionNext_3: End
 }
 { +Dialogue Name: TC_GiveHolyStatue
-  Output: "Я никогда не мечтал, что верну статую! За это я подарю тебе богатые подарки."
+  Output: "I never dreamt that I will get back the statue! I will give you rich presents for that."
 }
 { +Dialogue Name: TC_CheckFood
   Next_1: TC_TooMuchFood
@@ -87,19 +87,19 @@
 }
 { +Dialogue Name: TC_GiveFood
   Execute_1: "FoodCounter = FoodCounter + 1"
-  Output: "Да, конечно. Вот немного морской травы. Могу ли я помочь вам больше?"
+  Output: "Yes of course. Here is some sea grass. Can I help you more?"
   Next_1: TC_DefaultEntryCont
 }
 { +Dialogue Name: TC_TooMuchFood
   Execute_1: "FoodCounter = FoodCounter + 1"
-  Output: "Еда у вас уже есть, но вот еще морская трава. Теперь выберите что-нибудь другое!"
+  Output: "You already got food but here is some more sea grass. Now choose something else!"
   Next_1: TC_DefaultEntryCont
 }
 { +Dialogue Name: TC_TooMuchFood2
-  Output: "Вы больше не получите еды! Пока!"
+  Output: "You will not get any more food! Bye!"
 }
 { +Dialogue Name: TC_AskStoryAboutPeople
-  Output: "История Когтя началась очень-очень давно..."
+  Output: "The story of the Talon began long, long time ago..."
 }
 { +Dialogue Name: BJ_Start
   NPCName: txt_UGmuO
