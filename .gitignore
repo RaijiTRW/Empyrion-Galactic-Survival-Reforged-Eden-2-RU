@@ -6,6 +6,9 @@ Thumbs.db
 *.bak
 *.orig
 
+# Translation script progress cache
+.re2_translate_cache.json
+
 # Local archives
 *.zip
 *.7z
@@ -16,3 +19,6 @@ Thumbs.db
 source-mod/*
 !source-mod/.gitkeep
 
+
+# Python
+__pycache__/
