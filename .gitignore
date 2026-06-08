@@ -4,6 +4,7 @@ Thumbs.db
 # Temporary work files
 *.tmp
 *.bak
+*.bak*
 *.orig
 
 # Translation script progress cache
